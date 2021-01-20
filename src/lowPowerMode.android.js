@@ -1,5 +1,5 @@
 export default {
-    isLowPowerModeEnabled: () => false,
+    isLowPowerModeEnabled: () => Promise.resolve(false),
     setLowPowerModeListener: () => {},
     removeLowPowerModeListener: () => {}
 };
